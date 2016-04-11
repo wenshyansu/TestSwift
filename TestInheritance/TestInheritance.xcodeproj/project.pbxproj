@@ -12,6 +12,10 @@
 		DD0AE9FA1CBB4B8400CD5DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0AE9F81CBB4B8400CD5DDB /* Main.storyboard */; };
 		DD0AE9FC1CBB4B8400CD5DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0AE9FB1CBB4B8400CD5DDB /* Assets.xcassets */; };
 		DD0AE9FF1CBB4B8400CD5DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0AE9FD1CBB4B8400CD5DDB /* LaunchScreen.storyboard */; };
+		DD0AEA081CBB4DEE00CD5DDB /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AEA071CBB4DEE00CD5DDB /* TabbarViewController.swift */; };
+		DD0AEA0A1CBB4E2700CD5DDB /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AEA091CBB4E2700CD5DDB /* SuperViewController.swift */; };
+		DD0AEA0C1CBB4E7800CD5DDB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AEA0B1CBB4E7800CD5DDB /* FirstViewController.swift */; };
+		DD0AEA0E1CBB4ED500CD5DDB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AEA0D1CBB4ED500CD5DDB /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		DD0AE9FB1CBB4B8400CD5DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0AE9FE1CBB4B8400CD5DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0AEA001CBB4B8400CD5DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0AEA071CBB4DEE00CD5DDB /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabbarViewController.swift; path = Classes/TabbarViewController.swift; sourceTree = "<group>"; };
+		DD0AEA091CBB4E2700CD5DDB /* SuperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperViewController.swift; path = Classes/SuperViewController.swift; sourceTree = "<group>"; };
+		DD0AEA0B1CBB4E7800CD5DDB /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = Classes/FirstViewController.swift; sourceTree = "<group>"; };
+		DD0AEA0D1CBB4ED500CD5DDB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = Classes/SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +65,23 @@
 				DD0AE9F41CBB4B8400CD5DDB /* AppDelegate.swift */,
 				DD0AE9F61CBB4B8400CD5DDB /* ViewController.swift */,
 				DD0AE9F81CBB4B8400CD5DDB /* Main.storyboard */,
+				DD0AEA061CBB4DA200CD5DDB /* Classes */,
 				DD0AE9FB1CBB4B8400CD5DDB /* Assets.xcassets */,
 				DD0AE9FD1CBB4B8400CD5DDB /* LaunchScreen.storyboard */,
 				DD0AEA001CBB4B8400CD5DDB /* Info.plist */,
 			);
 			path = TestInheritance;
+			sourceTree = "<group>";
+		};
+		DD0AEA061CBB4DA200CD5DDB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DD0AEA071CBB4DEE00CD5DDB /* TabbarViewController.swift */,
+				DD0AEA091CBB4E2700CD5DDB /* SuperViewController.swift */,
+				DD0AEA0B1CBB4E7800CD5DDB /* FirstViewController.swift */,
+				DD0AEA0D1CBB4ED500CD5DDB /* SecondViewController.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0AEA0E1CBB4ED500CD5DDB /* SecondViewController.swift in Sources */,
+				DD0AEA0C1CBB4E7800CD5DDB /* FirstViewController.swift in Sources */,
 				DD0AE9F71CBB4B8400CD5DDB /* ViewController.swift in Sources */,
 				DD0AE9F51CBB4B8400CD5DDB /* AppDelegate.swift in Sources */,
+				DD0AEA0A1CBB4E2700CD5DDB /* SuperViewController.swift in Sources */,
+				DD0AEA081CBB4DEE00CD5DDB /* TabbarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

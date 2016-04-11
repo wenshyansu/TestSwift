@@ -19,7 +19,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func buttonPressed(sender: AnyObject) {
+        
+        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil);
+        let tabbarVc : TabbarViewController = storyboard.instantiateViewControllerWithIdentifier("TabbarViewController") as! TabbarViewController;
+        
+        self.presentViewController(tabbarVc, animated: true, completion: nil);
+    }
 }
 

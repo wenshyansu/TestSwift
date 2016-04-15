@@ -16,6 +16,8 @@
 		DD0AEA0A1CBB4E2700CD5DDB /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AEA091CBB4E2700CD5DDB /* SuperViewController.swift */; };
 		DD0AEA0C1CBB4E7800CD5DDB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AEA0B1CBB4E7800CD5DDB /* FirstViewController.swift */; };
 		DD0AEA0E1CBB4ED500CD5DDB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AEA0D1CBB4ED500CD5DDB /* SecondViewController.swift */; };
+		DD63B14F1CC0DEB200A14A5B /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD63B14E1CC0DEB200A14A5B /* ThirdTableViewController.swift */; };
+		DD63B1511CC0E07000A14A5B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD63B1501CC0E07000A14A5B /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DD0AEA091CBB4E2700CD5DDB /* SuperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperViewController.swift; path = Classes/SuperViewController.swift; sourceTree = "<group>"; };
 		DD0AEA0B1CBB4E7800CD5DDB /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = Classes/FirstViewController.swift; sourceTree = "<group>"; };
 		DD0AEA0D1CBB4ED500CD5DDB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = Classes/SecondViewController.swift; sourceTree = "<group>"; };
+		DD63B14E1CC0DEB200A14A5B /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdTableViewController.swift; path = Classes/ThirdTableViewController.swift; sourceTree = "<group>"; };
+		DD63B1501CC0E07000A14A5B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Classes/CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				DD0AEA091CBB4E2700CD5DDB /* SuperViewController.swift */,
 				DD0AEA0B1CBB4E7800CD5DDB /* FirstViewController.swift */,
 				DD0AEA0D1CBB4ED500CD5DDB /* SecondViewController.swift */,
+				DD63B14E1CC0DEB200A14A5B /* ThirdTableViewController.swift */,
+				DD63B1501CC0E07000A14A5B /* CameraViewController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -160,7 +166,9 @@
 				DD0AE9F71CBB4B8400CD5DDB /* ViewController.swift in Sources */,
 				DD0AE9F51CBB4B8400CD5DDB /* AppDelegate.swift in Sources */,
 				DD0AEA0A1CBB4E2700CD5DDB /* SuperViewController.swift in Sources */,
+				DD63B1511CC0E07000A14A5B /* CameraViewController.swift in Sources */,
 				DD0AEA081CBB4DEE00CD5DDB /* TabbarViewController.swift in Sources */,
+				DD63B14F1CC0DEB200A14A5B /* ThirdTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 				DD0AEA051CBB4B8400CD5DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

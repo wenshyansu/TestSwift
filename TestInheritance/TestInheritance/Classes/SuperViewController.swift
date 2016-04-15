@@ -18,8 +18,11 @@ class SuperViewController: UIViewController {
         self.view.backgroundColor = UIColor.lightGrayColor();
         self.navigationController?.navigationBar.barTintColor = UIColor.redColor();
         
-        let batItem : UIBarButtonItem = UIBarButtonItem(title: "Exit", style: .Done, target: self, action: "barItemPressed:");
-        self.navigationItem.leftBarButtonItem = batItem;
+        let leftBatItem : UIBarButtonItem = UIBarButtonItem(title: "Exit", style: .Done, target: self, action: "barLeftItemPressedn:");
+        self.navigationItem.leftBarButtonItem = leftBatItem;
+        
+        let rightBatItem : UIBarButtonItem = UIBarButtonItem(title: "Add", style: .Done, target: self, action: "barRightItemPressedn:");
+        self.navigationItem.rightBarButtonItem = rightBatItem;
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,8 +41,16 @@ class SuperViewController: UIViewController {
     }
     */
     
-    func barItemPressed(sender: AnyObject)
+    func barLeftItemPressedn(sender: AnyObject)
     {
         self.dismissViewControllerAnimated(true, completion: nil);
+    }
+    
+    func barRightItemPressedn(sender: AnyObject)
+    {
+        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil);
+        let cameraVC : CameraViewController = storyboard.instantiateViewControllerWithIdentifier("CameraViewController") as! CameraViewController;
+        
+        self.presentViewController(cameraVC, animated: true, completion: nil);
     }
 }

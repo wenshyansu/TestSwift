@@ -81,13 +81,21 @@
 			isa = PBXGroup;
 			children = (
 				DD0AEA071CBB4DEE00CD5DDB /* TabbarViewController.swift */,
+				DD63B1521CC0E7AA00A14A5B /* Tabbar Items */,
+				DD63B1501CC0E07000A14A5B /* CameraViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DD63B1521CC0E7AA00A14A5B /* Tabbar Items */ = {
+			isa = PBXGroup;
+			children = (
 				DD0AEA091CBB4E2700CD5DDB /* SuperViewController.swift */,
 				DD0AEA0B1CBB4E7800CD5DDB /* FirstViewController.swift */,
 				DD0AEA0D1CBB4ED500CD5DDB /* SecondViewController.swift */,
 				DD63B14E1CC0DEB200A14A5B /* ThirdTableViewController.swift */,
-				DD63B1501CC0E07000A14A5B /* CameraViewController.swift */,
 			);
-			name = Classes;
+			name = "Tabbar Items";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
